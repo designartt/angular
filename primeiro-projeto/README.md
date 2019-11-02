@@ -42,3 +42,5 @@ ng g c (para criar componentes)
 ng g c cursos/curso-detalhe( cursos(*PASTA DO COMPONENTE*)/curso-detalhe(*NOVO COMPONENTE DENTRO DA PASTA CURSOS))
 
 Adicionei extensões do: autoimport, Material Icon Theme
+
+http://lorempixel.com/ << para pegar imagens no tamanho que precisa
