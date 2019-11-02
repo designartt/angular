@@ -1,0 +1,15 @@
+<section class="property-binding">
+    <article>
+        <h3>Interpolation / Interpolação</h3>
+        <p>String renderizada com Interpolação: {{ url }}</p>
+        <p>Resultado de 1 + 1 é: {{ 1 + 1 }}</p>
+        <p>1 + 1 não é: {{ 1 + 1 + getValor() }}</p>
+        <p>Curso angular eu gosto do curso: {{ cursoAngular && getCurtirCurso() }}</p>
+    </article>
+
+    <article>
+        <h3>Property Binding</h3>
+        <img src="{{ urlImamge }}">
+        <img [src]="urlImamge">
+    </article>
+</section>
