@@ -27,12 +27,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-UTILIZEI PARA FAZER A INICIALIZAÇÃO DO PROJETO
-  npm install -g typescript
-  npm install -g @angular/cli
-  ng new primeiro-projeto
-  ng g m (para criar módulo)
-  ng g c (para criar componentes)
-  ng g c cursos/curso-detalhe( cursos(*PASTA DO COMPONENTE*)/curso-detalhe(*NOVO COMPONENTE DENTRO DA PASTA CURSOS)) 
+## UTILIZEI PARA FAZER A INICIALIZAÇÃO DO PROJETO
 
-    Adicionei extensões do: autoimport, Material Icon Theme
+npm install -g typescript
+
+npm install -g @angular/cli
+
+ng new primeiro-projeto
+
+ng g m (para criar módulo)
+
+ng g c (para criar componentes)
+
+ng g c cursos/curso-detalhe( cursos(*PASTA DO COMPONENTE*)/curso-detalhe(*NOVO COMPONENTE DENTRO DA PASTA CURSOS))
+
+Adicionei extensões do: autoimport, Material Icon Theme
+
+http://lorempixel.com/ << para pegar imagens no tamanho que precisa
