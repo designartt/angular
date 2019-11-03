@@ -9,7 +9,12 @@ export class DataBindingComponent implements OnInit {
 
   url: string  = 'http://google.com.br';
 cursoAngular: boolean = true;
-urlImamge = 'https://droneshowla.com/wp-content/uploads/facebook-400x200.png'
+urlImamge = 'https://droneshowla.com/wp-content/uploads/facebook-400x200.png';
+
+valorAtual: string = '';
+valorSalvo: string = '';
+
+isMouseOver: boolean = false;
 
   getValor(){
     return 1;
@@ -18,6 +23,30 @@ urlImamge = 'https://droneshowla.com/wp-content/uploads/facebook-400x200.png'
   getCurtirCurso(){
     return true;
   }
+
+  botaoClicado() {
+    alert('Botão Clicado!!');
+  }
+
+  onKeyUp(evento: KeyboardEvent){
+    this.valorAtual = (<HTMLInputElement>evento.target).value;
+  }
+
+  salvarValor(valor){
+    this.valorSalvo = valor;
+  }
+
+  onMouseOverOut() {
+    this.isMouseOver = !this.isMouseOver;
+  }
+
+
+
+
+
+
+
+
 
   constructor() { }
 
