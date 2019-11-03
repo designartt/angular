@@ -41,6 +41,8 @@ ng g c (para criar componentes)
 
 ng g c cursos/curso-detalhe( cursos(*PASTA DO COMPONENTE*)/curso-detalhe(*NOVO COMPONENTE DENTRO DA PASTA CURSOS))
 
+ng i ngx-bootstrap --save << qualquer coisa procurar como instalar o ng2 bootstrap que la ensina
+
 Adicionei extensões do: autoimport, Material Icon Theme
 
 http://lorempixel.com/ << para pegar imagens no tamanho que precisa
