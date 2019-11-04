@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent implements OnInit {
 
+  valorInicial = 15;
+
+  onMudouValor(evento) {
+    console.log(evento.novoValor);
+  }
+
+
   url: string  = 'http://google.com.br';
 cursoAngular: boolean = true;
 urlImamge = 'https://droneshowla.com/wp-content/uploads/facebook-400x200.png';
