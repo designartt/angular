@@ -23,6 +23,8 @@ pessoa: any = {
   idade: 20
 }
 
+nomeDoCurso: string = 'Angular';
+
   getValor(){
     return 1;
   }
