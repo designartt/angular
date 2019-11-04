@@ -14,7 +14,14 @@ urlImamge = 'https://droneshowla.com/wp-content/uploads/facebook-400x200.png';
 valorAtual: string = '';
 valorSalvo: string = '';
 
+nome: string = 'abc';
+
 isMouseOver: boolean = false;
+
+pessoa: any = {
+  nome: 'def',
+  idade: 20
+}
 
   getValor(){
     return 1;
