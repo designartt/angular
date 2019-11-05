@@ -1,0 +1,1 @@
+utilizar npm i -g angular-cli para iniciar os projetos
